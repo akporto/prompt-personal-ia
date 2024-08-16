@@ -12,8 +12,8 @@
 
 <p align="center">
   <h3 align="center">🏋️‍♂️ Assistente de Personal Trainer - Gerador de Treino Ideal</h3>
-Este projeto é um desafio de Prompt Engineer, onde o objetivo é criar um prompt que ajuda a montar o treino ideal para cada combinação de fatores, como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente de personal trainer gerado por esse prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário.
-O projeto deve ser feito utilizando as boas práticas de prompt engineer.
+Este projeto é um desafio de Prompt Engineering, onde o objetivo é criar um prompt que ajuda a montar o treino ideal para cada combinação de fatores, como biotipo corporal, disponibilidade de tempo, tipo de exercícios preferidos, objetivos de treino e feedback do usuário. O assistente gerado por esse prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário.
+O projeto deve ser feito utilizando as boas práticas de prompt engineering e com a capacidade de ajustar o treino com base no feedback do usuário.
 </p>
 
 ## 📋 Índice
@@ -23,15 +23,16 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 - [💪 Biotipos Corporais](#-biotipos-corporais)
 - [📅 Dias Disponíveis para Treino](#-dias-disponíveis-para-treino)
 - [🏋️ Tipos de Exercícios](#️-tipos-de-exercícios)
-- [🛠️ Regras de negócio](#️-regras-de-negócio)
+- [🎯 Objetivos e Feedback](#-objetivos-e-feedback)
+- [🛠️ Regras de Negócio](#️-regras-de-negócio)
 - [📖 Material de Apoio](#-material-de-apoio)
-- [🎯 Prompt de Resposta Proposto](#-prompt-de-resposta-proposto)
+- [📝 Exemplos de Treinos](#-exemplos-de-treinos)
 
 ---
 
 ## 📝 Introdução
 
-Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido, e o assistente gerará um plano de treino ideal com base nessas informações.
+Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana, o tipo de exercício preferido, os objetivos de treino e o feedback sobre o treino, e o assistente gerará um plano de treino ideal com base nessas informações.
 
 ---
 
@@ -102,22 +103,51 @@ A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão 
 
 ---
 
-## 🛠️ Regras de negócio
+## 🎯 Objetivos e Feedback
+
+- **Objetivos**: Defina o objetivo do treino para personalizar ainda mais o plano:
+  - **Perda de Peso**
+  - **Ganho de Massa Muscular**
+  - **Manutenção**
+
+- **Feedback**: O usuário pode fornecer feedback sobre o treino, permitindo ajustes:
+  - **Feedback Positivo**: Aumentar a intensidade ou variar os exercícios.
+  - **Feedback Negativo**: Reduzir a intensidade ou ajustar os tipos de exercícios.
+
+---
+
+## 🛠️ Regras de Negócio
 
 1. **Identifique seu biotipo corporal** consultando a seção de biotipos.
 2. **Determine quantos dias por semana você pode treinar** e escolha o tipo de treino mais adequado.
 3. **Selecione o tipo de exercício** que prefere realizar e que se encaixa melhor nos seus objetivos.
-4. Use o prompt do assistente para gerar um plano de treino personalizado.
+4. **Defina o objetivo do treino** para ajustar o plano de acordo com suas metas.
+5. **Forneça feedback** após realizar o treino para ajustar a intensidade e os exercícios conforme necessário.
 
 ---
 
 ## 📖 Material de Apoio
 
-Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor o projeto e as práticas de prompt engineering:
-
-- [Fundamentos de Engenharia de prompt](https://elidianaandrade.gitbook.io/fundamentos-de-engenharia-de-prompts-com-claude-3)
-- [Boas práticas de prompt](https://aline-antunes.gitbook.io/otimize-seus-prompts-e-aprenda-mais-usando-ias-1)
+- [Link para estudos sobre biotipos corporais](https://www.exemplo.com/biotipos)
+- [Guias sobre periodização de treinos](https://www.exemplo.com/periodizacao)
+- [Artigos sobre tipos de exercícios](https://www.exemplo.com/tipos-de-exercicios)
 
 ---
 
-## 🎯 Prompt de Resposta Proposto
+## 📝 Exemplos de Treinos
+
+Aqui estão exemplos de treinos para cada combinação de variáveis:
+
+### Exemplo 1: Ectomorfo, 3 dias, Funcional, Ganho de Massa Muscular
+- **Dia 1**: Agachamento, Flexão, Remada
+- **Dia 2**: Corrida, Prancha, Burpees
+- **Dia 3**: Saltos, Pull-ups, Abdominais
+
+### Exemplo 2: Endomorfo, 5 dias, HIIT, Perda de Peso
+- **Dia 1**: Sprint, Agachamentos, Abdominais
+- **Dia 2**: Pular corda, Flexões, Mountain Climbers
+- **Dia 3**: Corrida, Burpees, Prancha
+- **Dia 4**: Sprint, Agachamentos, Flexões
+- **Dia 5**: Pular corda, Mountain Climbers, Abdominais
+
+### Exemplo 3: Mesomorfo, 1 dia,
